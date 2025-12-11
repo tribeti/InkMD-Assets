@@ -1,0 +1,33 @@
+name: 🎨 New Icon Request
+description: Suggest a new icon for the Assets library
+title: "[ICON] "
+labels: ["new-icon"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Icon Name
+      placeholder: e.g., Visual Studio Code
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Official Source / SVG Link
+      description: Link to the official website or a valid SVG file.
+      placeholder: https://simpleicons.org/icons/visualstudiocode.svg
+    validations:
+      required: true
+
+  - type: input
+    id: color
+    attributes:
+      label: Brand Color (Hex)
+      description: Optional. The official brand color.
+      placeholder: e.g., #007ACC
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
