@@ -11,6 +11,6 @@ The repository is meticulously organized to separate UI components from content 
 Contains all the icons for users to display on their .md file. 
 
 ### 2. 📝 `/Templates`
-A comprehensive set of predefined Markdown (`.md`) templates designed to supercharge your writing workflow.
+A comprehensive set of predefined Markdown (`.md`) templates designed to supercharge your writing workflow.  
 
-If you want a new icon / template feel free to create a issue 🥰.
+# If you want a new icon / template feel free to create a issue 🥰.
