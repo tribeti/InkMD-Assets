@@ -1,0 +1,27 @@
+name: 📝 New Template Request
+description: Propose a new Markdown template for the editor
+title: "[TEMPLATE] "
+labels: ["new-template"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Template Name
+      placeholder: e.g., Daily Journal / Bug Report
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Purpose
+      placeholder: Briefly explain what this template is used for.
+
+  - type: textarea
+    id: content
+    attributes:
+      label: Markdown Content
+      description: Paste the raw Markdown code below.
+      render: markdown
+    validations:
+      required: true
